@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/Register/simulation/qsim
+vhard_block
+Z1 !s110 1750640142
+!i10b 1
+!s100 [gRfBnJT=F963l>@1MbGa0
+IAVVYBdn;FG;F20SUVdl6n3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1750640136
+Z4 8Register32bit.vo
+Z5 FRegister32bit.vo
+L0 2350
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1750640142.000000
+Z8 !s107 Register32bit.vo|
+Z9 !s90 -work|work|Register32bit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vpc
+R1
+!i10b 1
+!s100 0FDn<O11?6amVfdfWaf``3
+Ii?US<zcUIYTK3<c94PTD92
+R2
+R0
+R3
+R4
+R5
+Z12 L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpc_vlg_vec_tst
+R1
+!i10b 1
+!s100 dJX3d:ZEm3IUJ9VQiMHz90
+IEEFc61ZJC8=Qk9Y:Mo3FD3
+R2
+R0
+w1750640134
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z13 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vregister32bit
+Z14 !s110 1749597431
+!i10b 1
+!s100 5X@bOB@G0`6Hd9b05?U:?1
+IB`<8YX=gZaOZLLKDY5;Nj2
+R2
+R0
+w1749597430
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+Z15 !s108 1749597431.000000
+R8
+R9
+!i113 1
+R10
+R11
+vregister32bit_vlg_vec_tst
+R14
+!i10b 1
+!s100 8gT0<9C2H7fz_^7kg3@Uz1
+Ign7jB8FFNQ;=QZYb50z9`2
+R2
+R0
+w1749597427
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

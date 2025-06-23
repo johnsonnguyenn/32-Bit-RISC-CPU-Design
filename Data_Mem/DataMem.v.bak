@@ -1,0 +1,24 @@
+module DataMem (clk, addr, data_in, wen, en, data_out);
+	input clk; 
+	input [7:0] addr; 
+	input [31:0] data_in;
+	input wen;
+	input en;
+	output [31:0] data_out;
+	
+	reg [31:0] M [255:0]; 
+	
+always @ (negedge clk)
+	if (en) begin 
+		if (wen = 0) begin
+			data_out <= M[addr]; 
+		end else if (wen = 1)
+			M[addr] <= data_in;
+				data_out = 32'b0; 
+		end else if (en = 0);
+			data_out = 32'b0;
+		end; 
+		
+	end; 
+
+endmodule;

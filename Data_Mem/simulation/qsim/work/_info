@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/Data_Mem/simulation/qsim
+vDataMem
+Z1 !s110 1750593422
+!i10b 1
+!s100 U7OcYCI]d8IilDUEV@Z7F2
+IgoBoT@P:TOmbUNebC7^mY2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1750593418
+Z4 8Data_Memory.vo
+Z5 FData_Memory.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1750593421.000000
+Z8 !s107 Data_Memory.vo|
+Z9 !s90 -work|work|Data_Memory.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@data@mem
+vDataMem_vlg_vec_tst
+R1
+!i10b 1
+!s100 2FjFfL7iU^6CmcEz1IPgf2
+I>V=Y5GC9M3G?dKXKQg:Nf3
+R2
+R0
+w1750593414
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1750593422.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@data@mem_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 Y0loCn:6Ieo[jk8JVab]N3
+I`9LOUe_LeM14FJof6GAUb3
+R2
+R0
+R3
+R4
+R5
+L0 304964
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

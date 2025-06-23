@@ -1,0 +1,13 @@
+module register32bit (D, clk, reset, Q); 
+input [31:0] D;
+input clk;
+input reset; 
+output reg [31:0] Q;
+
+always @(posedge clk or posedge reset)
+if (reset)
+    Q <= 32'b0;
+else 
+    Q <= D;
+
+endmodule

@@ -1,0 +1,45 @@
+# do Register32bit.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:55:42 on Jun 22,2025
+# vlog -work work Register32bit.vo 
+# -- Compiling module pc
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	pc
+# End time: 20:55:42 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:55:42 on Jun 22,2025
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module pc_vlg_vec_tst
+# 
+# Top level modules:
+# 	pc_vlg_vec_tst
+# End time: 20:55:42 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.pc_vlg_vec_tst 
+# Start time: 20:55:43 on Jun 22,2025
+# Loading work.pc_vlg_vec_tst
+# Loading work.pc
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading instances from Register32bit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from Register32bit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /pc_vlg_vec_tst File: Waveform1.vwf.vt
+# after#26
+# ** Note: $finish    : Waveform1.vwf.vt(52)
+#    Time: 200 ns  Iteration: 0  Instance: /pc_vlg_vec_tst
+# End time: 20:55:44 on Jun 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

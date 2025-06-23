@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 22 07:54:25 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Data_Memory
+Top-level Entity Name : DataMem
+Family : Cyclone IV E
+Total logic elements : 13,961
+    Total combinational functions : 5,769
+    Dedicated logic registers : 8,224
+Total registers : 8224
+Total pins : 75
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
