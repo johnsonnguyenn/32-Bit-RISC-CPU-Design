@@ -1,0 +1,1223 @@
+$comment
+	File created using the following command:
+		vcd file ALU32.msim.vcd -direction
+$end
+$date
+	Thu Jun 12 04:41:15 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ALU32Bit_vlg_vec_tst $end
+$var reg 32 ! a [31:0] $end
+$var reg 32 " b [31:0] $end
+$var reg 3 # op [2:0] $end
+$var wire 1 $ cout $end
+$var wire 1 % result [31] $end
+$var wire 1 & result [30] $end
+$var wire 1 ' result [29] $end
+$var wire 1 ( result [28] $end
+$var wire 1 ) result [27] $end
+$var wire 1 * result [26] $end
+$var wire 1 + result [25] $end
+$var wire 1 , result [24] $end
+$var wire 1 - result [23] $end
+$var wire 1 . result [22] $end
+$var wire 1 / result [21] $end
+$var wire 1 0 result [20] $end
+$var wire 1 1 result [19] $end
+$var wire 1 2 result [18] $end
+$var wire 1 3 result [17] $end
+$var wire 1 4 result [16] $end
+$var wire 1 5 result [15] $end
+$var wire 1 6 result [14] $end
+$var wire 1 7 result [13] $end
+$var wire 1 8 result [12] $end
+$var wire 1 9 result [11] $end
+$var wire 1 : result [10] $end
+$var wire 1 ; result [9] $end
+$var wire 1 < result [8] $end
+$var wire 1 = result [7] $end
+$var wire 1 > result [6] $end
+$var wire 1 ? result [5] $end
+$var wire 1 @ result [4] $end
+$var wire 1 A result [3] $end
+$var wire 1 B result [2] $end
+$var wire 1 C result [1] $end
+$var wire 1 D result [0] $end
+$var wire 1 E zero $end
+
+$scope module i1 $end
+$var wire 1 F gnd $end
+$var wire 1 G vcc $end
+$var wire 1 H unknown $end
+$var tri1 1 I devclrn $end
+$var tri1 1 J devpor $end
+$var tri1 1 K devoe $end
+$var wire 1 L result[0]~output_o $end
+$var wire 1 M result[1]~output_o $end
+$var wire 1 N result[2]~output_o $end
+$var wire 1 O result[3]~output_o $end
+$var wire 1 P result[4]~output_o $end
+$var wire 1 Q result[5]~output_o $end
+$var wire 1 R result[6]~output_o $end
+$var wire 1 S result[7]~output_o $end
+$var wire 1 T result[8]~output_o $end
+$var wire 1 U result[9]~output_o $end
+$var wire 1 V result[10]~output_o $end
+$var wire 1 W result[11]~output_o $end
+$var wire 1 X result[12]~output_o $end
+$var wire 1 Y result[13]~output_o $end
+$var wire 1 Z result[14]~output_o $end
+$var wire 1 [ result[15]~output_o $end
+$var wire 1 \ result[16]~output_o $end
+$var wire 1 ] result[17]~output_o $end
+$var wire 1 ^ result[18]~output_o $end
+$var wire 1 _ result[19]~output_o $end
+$var wire 1 ` result[20]~output_o $end
+$var wire 1 a result[21]~output_o $end
+$var wire 1 b result[22]~output_o $end
+$var wire 1 c result[23]~output_o $end
+$var wire 1 d result[24]~output_o $end
+$var wire 1 e result[25]~output_o $end
+$var wire 1 f result[26]~output_o $end
+$var wire 1 g result[27]~output_o $end
+$var wire 1 h result[28]~output_o $end
+$var wire 1 i result[29]~output_o $end
+$var wire 1 j result[30]~output_o $end
+$var wire 1 k result[31]~output_o $end
+$var wire 1 l cout~output_o $end
+$var wire 1 m zero~output_o $end
+$var wire 1 n op[1]~input_o $end
+$var wire 1 o op[2]~input_o $end
+$var wire 1 p op[0]~input_o $end
+$var wire 1 q a[1]~input_o $end
+$var wire 1 r mux1|Mux31~0_combout $end
+$var wire 1 s a[0]~input_o $end
+$var wire 1 t b[0]~input_o $end
+$var wire 1 u mux1|Mux31~1_combout $end
+$var wire 1 v mux1|Mux31~2_combout $end
+$var wire 1 w b[1]~input_o $end
+$var wire 1 x Equal0~0_combout $end
+$var wire 1 y Adder_32Bit|fulladd_stage[0].FullAdder32|cout~0_combout $end
+$var wire 1 z Adder_32Bit|fulladd_stage[1].FullAdder32|sum~0_combout $end
+$var wire 1 { mux1|Mux29~1_combout $end
+$var wire 1 | mux1|Mux29~2_combout $end
+$var wire 1 } a[2]~input_o $end
+$var wire 1 ~ mux1|Mux30~0_combout $end
+$var wire 1 !! mux1|Mux30~1_combout $end
+$var wire 1 "! mux1|Mux29~0_combout $end
+$var wire 1 #! mux1|Mux30~2_combout $end
+$var wire 1 $! Adder_32Bit|fulladd_stage[1].FullAdder32|cout~0_combout $end
+$var wire 1 %! b[2]~input_o $end
+$var wire 1 &! Adder_32Bit|fulladd_stage[2].FullAdder32|sum~combout $end
+$var wire 1 '! a[3]~input_o $end
+$var wire 1 (! mux1|Mux29~3_combout $end
+$var wire 1 )! mux1|Mux29~4_combout $end
+$var wire 1 *! mux1|Mux29~5_combout $end
+$var wire 1 +! b[3]~input_o $end
+$var wire 1 ,! a[4]~input_o $end
+$var wire 1 -! mux1|Mux28~0_combout $end
+$var wire 1 .! Adder_32Bit|fulladd_stage[2].FullAdder32|cout~0_combout $end
+$var wire 1 /! Adder_32Bit|fulladd_stage[3].FullAdder32|sum~combout $end
+$var wire 1 0! mux1|Mux28~1_combout $end
+$var wire 1 1! mux1|Mux28~2_combout $end
+$var wire 1 2! Adder_32Bit|fulladd_stage[3].FullAdder32|cout~0_combout $end
+$var wire 1 3! b[4]~input_o $end
+$var wire 1 4! Adder_32Bit|fulladd_stage[4].FullAdder32|sum~combout $end
+$var wire 1 5! a[5]~input_o $end
+$var wire 1 6! mux1|Mux27~0_combout $end
+$var wire 1 7! mux1|Mux27~1_combout $end
+$var wire 1 8! mux1|Mux27~2_combout $end
+$var wire 1 9! a[6]~input_o $end
+$var wire 1 :! mux1|Mux26~0_combout $end
+$var wire 1 ;! b[5]~input_o $end
+$var wire 1 <! Adder_32Bit|fulladd_stage[4].FullAdder32|cout~0_combout $end
+$var wire 1 =! Adder_32Bit|fulladd_stage[5].FullAdder32|sum~combout $end
+$var wire 1 >! mux1|Mux26~1_combout $end
+$var wire 1 ?! mux1|Mux26~2_combout $end
+$var wire 1 @! Adder_32Bit|fulladd_stage[5].FullAdder32|cout~0_combout $end
+$var wire 1 A! b[6]~input_o $end
+$var wire 1 B! Adder_32Bit|fulladd_stage[6].FullAdder32|sum~combout $end
+$var wire 1 C! a[7]~input_o $end
+$var wire 1 D! mux1|Mux25~0_combout $end
+$var wire 1 E! mux1|Mux25~1_combout $end
+$var wire 1 F! mux1|Mux25~2_combout $end
+$var wire 1 G! a[8]~input_o $end
+$var wire 1 H! mux1|Mux24~0_combout $end
+$var wire 1 I! Adder_32Bit|fulladd_stage[6].FullAdder32|cout~0_combout $end
+$var wire 1 J! b[7]~input_o $end
+$var wire 1 K! Adder_32Bit|fulladd_stage[7].FullAdder32|sum~combout $end
+$var wire 1 L! mux1|Mux24~1_combout $end
+$var wire 1 M! mux1|Mux24~2_combout $end
+$var wire 1 N! b[8]~input_o $end
+$var wire 1 O! a[9]~input_o $end
+$var wire 1 P! mux1|Mux23~0_combout $end
+$var wire 1 Q! Adder_32Bit|fulladd_stage[7].FullAdder32|cout~0_combout $end
+$var wire 1 R! Adder_32Bit|fulladd_stage[8].FullAdder32|sum~combout $end
+$var wire 1 S! mux1|Mux23~1_combout $end
+$var wire 1 T! mux1|Mux23~2_combout $end
+$var wire 1 U! a[10]~input_o $end
+$var wire 1 V! mux1|Mux22~0_combout $end
+$var wire 1 W! b[9]~input_o $end
+$var wire 1 X! Adder_32Bit|fulladd_stage[8].FullAdder32|cout~0_combout $end
+$var wire 1 Y! Adder_32Bit|fulladd_stage[9].FullAdder32|sum~combout $end
+$var wire 1 Z! mux1|Mux22~1_combout $end
+$var wire 1 [! mux1|Mux22~2_combout $end
+$var wire 1 \! b[10]~input_o $end
+$var wire 1 ]! a[11]~input_o $end
+$var wire 1 ^! mux1|Mux21~0_combout $end
+$var wire 1 _! Adder_32Bit|fulladd_stage[9].FullAdder32|cout~0_combout $end
+$var wire 1 `! Adder_32Bit|fulladd_stage[10].FullAdder32|sum~combout $end
+$var wire 1 a! mux1|Mux21~1_combout $end
+$var wire 1 b! mux1|Mux21~2_combout $end
+$var wire 1 c! Adder_32Bit|fulladd_stage[10].FullAdder32|cout~0_combout $end
+$var wire 1 d! b[11]~input_o $end
+$var wire 1 e! Adder_32Bit|fulladd_stage[11].FullAdder32|sum~combout $end
+$var wire 1 f! a[12]~input_o $end
+$var wire 1 g! mux1|Mux20~0_combout $end
+$var wire 1 h! mux1|Mux20~1_combout $end
+$var wire 1 i! mux1|Mux20~2_combout $end
+$var wire 1 j! b[12]~input_o $end
+$var wire 1 k! Adder_32Bit|fulladd_stage[11].FullAdder32|cout~0_combout $end
+$var wire 1 l! Adder_32Bit|fulladd_stage[12].FullAdder32|sum~combout $end
+$var wire 1 m! a[13]~input_o $end
+$var wire 1 n! mux1|Mux19~0_combout $end
+$var wire 1 o! mux1|Mux19~1_combout $end
+$var wire 1 p! mux1|Mux19~2_combout $end
+$var wire 1 q! a[14]~input_o $end
+$var wire 1 r! mux1|Mux18~0_combout $end
+$var wire 1 s! b[13]~input_o $end
+$var wire 1 t! Adder_32Bit|fulladd_stage[12].FullAdder32|cout~0_combout $end
+$var wire 1 u! Adder_32Bit|fulladd_stage[13].FullAdder32|sum~combout $end
+$var wire 1 v! mux1|Mux18~1_combout $end
+$var wire 1 w! mux1|Mux18~2_combout $end
+$var wire 1 x! b[14]~input_o $end
+$var wire 1 y! Adder_32Bit|fulladd_stage[13].FullAdder32|cout~0_combout $end
+$var wire 1 z! Adder_32Bit|fulladd_stage[14].FullAdder32|sum~combout $end
+$var wire 1 {! a[15]~input_o $end
+$var wire 1 |! mux1|Mux17~0_combout $end
+$var wire 1 }! mux1|Mux17~1_combout $end
+$var wire 1 ~! mux1|Mux17~2_combout $end
+$var wire 1 !" b[15]~input_o $end
+$var wire 1 "" Adder_32Bit|fulladd_stage[14].FullAdder32|cout~0_combout $end
+$var wire 1 #" Adder_32Bit|fulladd_stage[15].FullAdder32|sum~combout $end
+$var wire 1 $" a[16]~input_o $end
+$var wire 1 %" mux1|Mux16~0_combout $end
+$var wire 1 &" mux1|Mux16~1_combout $end
+$var wire 1 '" mux1|Mux16~2_combout $end
+$var wire 1 (" b[16]~input_o $end
+$var wire 1 )" Adder_32Bit|fulladd_stage[15].FullAdder32|cout~0_combout $end
+$var wire 1 *" Adder_32Bit|fulladd_stage[16].FullAdder32|sum~combout $end
+$var wire 1 +" a[17]~input_o $end
+$var wire 1 ," mux1|Mux15~0_combout $end
+$var wire 1 -" mux1|Mux15~1_combout $end
+$var wire 1 ." mux1|Mux15~2_combout $end
+$var wire 1 /" b[17]~input_o $end
+$var wire 1 0" a[18]~input_o $end
+$var wire 1 1" mux1|Mux14~0_combout $end
+$var wire 1 2" Adder_32Bit|fulladd_stage[16].FullAdder32|cout~0_combout $end
+$var wire 1 3" Adder_32Bit|fulladd_stage[17].FullAdder32|sum~combout $end
+$var wire 1 4" mux1|Mux14~1_combout $end
+$var wire 1 5" mux1|Mux14~2_combout $end
+$var wire 1 6" b[18]~input_o $end
+$var wire 1 7" a[19]~input_o $end
+$var wire 1 8" mux1|Mux13~0_combout $end
+$var wire 1 9" Adder_32Bit|fulladd_stage[17].FullAdder32|cout~0_combout $end
+$var wire 1 :" Adder_32Bit|fulladd_stage[18].FullAdder32|sum~combout $end
+$var wire 1 ;" mux1|Mux13~1_combout $end
+$var wire 1 <" mux1|Mux13~2_combout $end
+$var wire 1 =" Adder_32Bit|fulladd_stage[18].FullAdder32|cout~0_combout $end
+$var wire 1 >" b[19]~input_o $end
+$var wire 1 ?" Adder_32Bit|fulladd_stage[19].FullAdder32|sum~combout $end
+$var wire 1 @" a[20]~input_o $end
+$var wire 1 A" mux1|Mux12~0_combout $end
+$var wire 1 B" mux1|Mux12~1_combout $end
+$var wire 1 C" mux1|Mux12~2_combout $end
+$var wire 1 D" b[20]~input_o $end
+$var wire 1 E" Adder_32Bit|fulladd_stage[19].FullAdder32|cout~0_combout $end
+$var wire 1 F" Adder_32Bit|fulladd_stage[20].FullAdder32|sum~combout $end
+$var wire 1 G" a[21]~input_o $end
+$var wire 1 H" mux1|Mux11~0_combout $end
+$var wire 1 I" mux1|Mux11~1_combout $end
+$var wire 1 J" mux1|Mux11~2_combout $end
+$var wire 1 K" b[21]~input_o $end
+$var wire 1 L" Adder_32Bit|fulladd_stage[20].FullAdder32|cout~0_combout $end
+$var wire 1 M" Adder_32Bit|fulladd_stage[21].FullAdder32|sum~combout $end
+$var wire 1 N" a[22]~input_o $end
+$var wire 1 O" mux1|Mux10~0_combout $end
+$var wire 1 P" mux1|Mux10~1_combout $end
+$var wire 1 Q" mux1|Mux10~2_combout $end
+$var wire 1 R" b[22]~input_o $end
+$var wire 1 S" a[23]~input_o $end
+$var wire 1 T" mux1|Mux9~0_combout $end
+$var wire 1 U" Adder_32Bit|fulladd_stage[21].FullAdder32|cout~0_combout $end
+$var wire 1 V" Adder_32Bit|fulladd_stage[22].FullAdder32|sum~combout $end
+$var wire 1 W" mux1|Mux9~1_combout $end
+$var wire 1 X" mux1|Mux9~2_combout $end
+$var wire 1 Y" Adder_32Bit|fulladd_stage[22].FullAdder32|cout~0_combout $end
+$var wire 1 Z" b[23]~input_o $end
+$var wire 1 [" Adder_32Bit|fulladd_stage[23].FullAdder32|sum~combout $end
+$var wire 1 \" a[24]~input_o $end
+$var wire 1 ]" mux1|Mux8~0_combout $end
+$var wire 1 ^" mux1|Mux8~1_combout $end
+$var wire 1 _" mux1|Mux8~2_combout $end
+$var wire 1 `" b[24]~input_o $end
+$var wire 1 a" a[25]~input_o $end
+$var wire 1 b" mux1|Mux7~0_combout $end
+$var wire 1 c" Adder_32Bit|fulladd_stage[23].FullAdder32|cout~0_combout $end
+$var wire 1 d" Adder_32Bit|fulladd_stage[24].FullAdder32|sum~combout $end
+$var wire 1 e" mux1|Mux7~1_combout $end
+$var wire 1 f" mux1|Mux7~2_combout $end
+$var wire 1 g" b[25]~input_o $end
+$var wire 1 h" a[26]~input_o $end
+$var wire 1 i" mux1|Mux6~0_combout $end
+$var wire 1 j" Adder_32Bit|fulladd_stage[24].FullAdder32|cout~0_combout $end
+$var wire 1 k" Adder_32Bit|fulladd_stage[25].FullAdder32|sum~combout $end
+$var wire 1 l" mux1|Mux6~1_combout $end
+$var wire 1 m" mux1|Mux6~2_combout $end
+$var wire 1 n" b[26]~input_o $end
+$var wire 1 o" a[27]~input_o $end
+$var wire 1 p" mux1|Mux5~0_combout $end
+$var wire 1 q" Adder_32Bit|fulladd_stage[25].FullAdder32|cout~0_combout $end
+$var wire 1 r" Adder_32Bit|fulladd_stage[26].FullAdder32|sum~combout $end
+$var wire 1 s" mux1|Mux5~1_combout $end
+$var wire 1 t" mux1|Mux5~2_combout $end
+$var wire 1 u" a[28]~input_o $end
+$var wire 1 v" mux1|Mux4~0_combout $end
+$var wire 1 w" Adder_32Bit|fulladd_stage[26].FullAdder32|cout~0_combout $end
+$var wire 1 x" b[27]~input_o $end
+$var wire 1 y" Adder_32Bit|fulladd_stage[27].FullAdder32|sum~combout $end
+$var wire 1 z" mux1|Mux4~1_combout $end
+$var wire 1 {" mux1|Mux4~2_combout $end
+$var wire 1 |" b[28]~input_o $end
+$var wire 1 }" a[29]~input_o $end
+$var wire 1 ~" mux1|Mux3~0_combout $end
+$var wire 1 !# Adder_32Bit|fulladd_stage[27].FullAdder32|cout~0_combout $end
+$var wire 1 "# Adder_32Bit|fulladd_stage[28].FullAdder32|sum~combout $end
+$var wire 1 ## mux1|Mux3~1_combout $end
+$var wire 1 $# mux1|Mux3~2_combout $end
+$var wire 1 %# b[29]~input_o $end
+$var wire 1 &# Adder_32Bit|fulladd_stage[28].FullAdder32|cout~0_combout $end
+$var wire 1 '# Adder_32Bit|fulladd_stage[29].FullAdder32|sum~combout $end
+$var wire 1 (# a[30]~input_o $end
+$var wire 1 )# mux1|Mux2~0_combout $end
+$var wire 1 *# mux1|Mux2~1_combout $end
+$var wire 1 +# mux1|Mux2~2_combout $end
+$var wire 1 ,# a[31]~input_o $end
+$var wire 1 -# mux1|Mux1~0_combout $end
+$var wire 1 .# Adder_32Bit|fulladd_stage[29].FullAdder32|cout~0_combout $end
+$var wire 1 /# b[30]~input_o $end
+$var wire 1 0# Adder_32Bit|fulladd_stage[30].FullAdder32|sum~combout $end
+$var wire 1 1# mux1|Mux1~1_combout $end
+$var wire 1 2# mux1|Mux1~2_combout $end
+$var wire 1 3# Equal0~1_combout $end
+$var wire 1 4# Adder_32Bit|fulladd_stage[30].FullAdder32|cout~0_combout $end
+$var wire 1 5# b[31]~input_o $end
+$var wire 1 6# Adder_32Bit|fulladd_stage[31].FullAdder32|sum~combout $end
+$var wire 1 7# mux1|Mux0~0_combout $end
+$var wire 1 8# mux1|Mux0~1_combout $end
+$var wire 1 9# Adder_32Bit|fulladd_stage[31].FullAdder32|cout~0_combout $end
+$var wire 1 :# WideNor0~1_combout $end
+$var wire 1 ;# WideNor0~2_combout $end
+$var wire 1 <# WideNor0~4_combout $end
+$var wire 1 =# WideNor0~7_combout $end
+$var wire 1 ># WideNor0~6_combout $end
+$var wire 1 ?# WideNor0~5_combout $end
+$var wire 1 @# WideNor0~8_combout $end
+$var wire 1 A# WideNor0~3_combout $end
+$var wire 1 B# WideNor0~9_combout $end
+$var wire 1 C# WideNor0~0_combout $end
+$var wire 1 D# WideNor0~combout $end
+$var wire 1 E# OR_32|result [31] $end
+$var wire 1 F# OR_32|result [30] $end
+$var wire 1 G# OR_32|result [29] $end
+$var wire 1 H# OR_32|result [28] $end
+$var wire 1 I# OR_32|result [27] $end
+$var wire 1 J# OR_32|result [26] $end
+$var wire 1 K# OR_32|result [25] $end
+$var wire 1 L# OR_32|result [24] $end
+$var wire 1 M# OR_32|result [23] $end
+$var wire 1 N# OR_32|result [22] $end
+$var wire 1 O# OR_32|result [21] $end
+$var wire 1 P# OR_32|result [20] $end
+$var wire 1 Q# OR_32|result [19] $end
+$var wire 1 R# OR_32|result [18] $end
+$var wire 1 S# OR_32|result [17] $end
+$var wire 1 T# OR_32|result [16] $end
+$var wire 1 U# OR_32|result [15] $end
+$var wire 1 V# OR_32|result [14] $end
+$var wire 1 W# OR_32|result [13] $end
+$var wire 1 X# OR_32|result [12] $end
+$var wire 1 Y# OR_32|result [11] $end
+$var wire 1 Z# OR_32|result [10] $end
+$var wire 1 [# OR_32|result [9] $end
+$var wire 1 \# OR_32|result [8] $end
+$var wire 1 ]# OR_32|result [7] $end
+$var wire 1 ^# OR_32|result [6] $end
+$var wire 1 _# OR_32|result [5] $end
+$var wire 1 `# OR_32|result [4] $end
+$var wire 1 a# OR_32|result [3] $end
+$var wire 1 b# OR_32|result [2] $end
+$var wire 1 c# OR_32|result [1] $end
+$var wire 1 d# OR_32|result [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 !
+b1 "
+b111 #
+x$
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+xE
+0F
+1G
+xH
+1I
+1J
+1K
+xL
+xM
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+xa
+xb
+xc
+xd
+xe
+xf
+xg
+xh
+xi
+xj
+xk
+xl
+xm
+1n
+1o
+1p
+1q
+xr
+1s
+1t
+xu
+xv
+0w
+xx
+xy
+xz
+x{
+x|
+0}
+x~
+x!!
+x"!
+x#!
+x$!
+0%!
+x&!
+0'!
+x(!
+x)!
+x*!
+0+!
+0,!
+x-!
+x.!
+x/!
+x0!
+x1!
+x2!
+03!
+x4!
+05!
+x6!
+x7!
+x8!
+09!
+x:!
+0;!
+x<!
+x=!
+x>!
+x?!
+x@!
+0A!
+xB!
+0C!
+xD!
+xE!
+xF!
+0G!
+xH!
+xI!
+0J!
+xK!
+xL!
+xM!
+0N!
+0O!
+xP!
+xQ!
+xR!
+xS!
+xT!
+0U!
+xV!
+0W!
+xX!
+xY!
+xZ!
+x[!
+0\!
+0]!
+x^!
+x_!
+x`!
+xa!
+xb!
+xc!
+0d!
+xe!
+0f!
+xg!
+xh!
+xi!
+0j!
+xk!
+xl!
+0m!
+xn!
+xo!
+xp!
+0q!
+xr!
+0s!
+xt!
+xu!
+xv!
+xw!
+0x!
+xy!
+xz!
+0{!
+x|!
+x}!
+x~!
+0!"
+x""
+x#"
+0$"
+x%"
+x&"
+x'"
+0("
+x)"
+x*"
+0+"
+x,"
+x-"
+x."
+0/"
+00"
+x1"
+x2"
+x3"
+x4"
+x5"
+06"
+07"
+x8"
+x9"
+x:"
+x;"
+x<"
+x="
+0>"
+x?"
+0@"
+xA"
+xB"
+xC"
+0D"
+xE"
+xF"
+0G"
+xH"
+xI"
+xJ"
+0K"
+xL"
+xM"
+0N"
+xO"
+xP"
+xQ"
+0R"
+0S"
+xT"
+xU"
+xV"
+xW"
+xX"
+xY"
+0Z"
+x["
+0\"
+x]"
+x^"
+x_"
+0`"
+0a"
+xb"
+xc"
+xd"
+xe"
+xf"
+0g"
+0h"
+xi"
+xj"
+xk"
+xl"
+xm"
+0n"
+0o"
+xp"
+xq"
+xr"
+xs"
+xt"
+0u"
+xv"
+xw"
+0x"
+xy"
+xz"
+x{"
+0|"
+0}"
+x~"
+x!#
+x"#
+x##
+x$#
+0%#
+x&#
+x'#
+0(#
+x)#
+x*#
+x+#
+0,#
+x-#
+x.#
+0/#
+x0#
+x1#
+x2#
+x3#
+x4#
+05#
+x6#
+x7#
+x8#
+x9#
+x:#
+x;#
+x<#
+x=#
+x>#
+x?#
+x@#
+xA#
+xB#
+xC#
+xD#
+zd#
+xc#
+xb#
+xa#
+x`#
+x_#
+x^#
+x]#
+x\#
+x[#
+xZ#
+xY#
+xX#
+xW#
+xV#
+xU#
+xT#
+xS#
+xR#
+xQ#
+xP#
+xO#
+xN#
+xM#
+xL#
+xK#
+xJ#
+xI#
+xH#
+xG#
+xF#
+zE#
+$end
+#1513
+1c#
+#1664
+0x
+#1813
+03#
+#4073
+0r!
+#4077
+0|!
+#4177
+0n!
+#4182
+0b"
+#4278
+0O"
+#4283
+0"!
+#4284
+0{
+#4293
+1|
+#4367
+0i"
+#4408
+0w"
+#4428
+0""
+#4429
+0V#
+#4434
+06!
+#4448
+0]"
+#4519
+0(!
+#4535
+0N#
+#4542
+0r
+#4548
+0U#
+#4551
+0F#
+#4555
+0-!
+#4556
+0I#
+0!#
+#4582
+0Y"
+#4614
+0S#
+#4616
+0Q#
+#4617
+0,"
+#4618
+09"
+#4622
+0-#
+#4645
+0[#
+0_!
+#4650
+0P!
+#4655
+0V!
+#4674
+02!
+#4677
+0a#
+#4678
+0~
+#4690
+0D!
+#4707
+0T"
+#4708
+0M#
+#4709
+0c"
+#4710
+0.!
+#4711
+0b#
+#4720
+0^#
+#4724
+08"
+#4726
+0I!
+#4734
+0Q!
+#4737
+0J#
+#4740
+0L"
+#4742
+0P#
+#4745
+0\#
+#4791
+0%"
+#4805
+0H!
+0A"
+#4812
+0j"
+#4813
+0)"
+#4816
+0L#
+#4823
+07#
+#4827
+01"
+#4829
+0v"
+#4851
+1y
+#4853
+04#
+#4869
+0T#
+#4871
+02"
+#4888
+0`#
+#4889
+0<!
+#4899
+0E"
+#4902
+0~"
+#4925
+0G#
+0.#
+#4934
+0R#
+#4958
+09#
+#4959
+0#"
+#5010
+0:!
+#5026
+0u
+#5029
+0_#
+#5036
+0X#
+#5037
+0t!
+#5052
+0c!
+#5053
+0Z#
+#5079
+0X!
+#5085
+0K#
+#5088
+0q"
+#5103
+0H#
+#5104
+0&#
+#5112
+0]#
+#5122
+0="
+#5185
+0g!
+#5191
+0!!
+#5206
+0z
+#5219
+0p"
+#5220
+1$!
+#5242
+0d"
+#5245
+0v
+0>!
+#5251
+00!
+#5271
+0y!
+#5272
+0W#
+#5276
+0R!
+#5287
+0"#
+#5289
+07!
+#5291
+0E!
+#5297
+0H"
+#5311
+0)#
+#5314
+0["
+#5340
+0*"
+#5351
+0:"
+#5359
+0U"
+#5364
+0O#
+#5370
+0@!
+#5376
+0`!
+#5391
+0^!
+#5406
+04!
+#5417
+0=!
+#5431
+0Y#
+#5433
+0k!
+#5466
+0h!
+0v!
+#5472
+0M"
+#5486
+0'#
+#5491
+0)!
+#5568
+0u!
+#5584
+06#
+#5608
+0Y!
+#5610
+0/!
+0o!
+#5616
+0y"
+#5617
+0r"
+#5631
+0F"
+#5791
+0##
+#5809
+0F!
+#5890
+0#!
+#5900
+01#
+#5902
+0L!
+#5915
+0k"
+#5924
+0a!
+#5925
+0Z!
+#5927
+0?!
+#5939
+0K!
+#5951
+01!
+08#
+#5982
+0p!
+#6033
+0?"
+#6035
+0&"
+0l"
+0s"
+#6056
+0}!
+#6069
+0P"
+#6085
+0I"
+#6095
+04"
+#6096
+0;"
+#6097
+0B"
+#6106
+0S!
+#6107
+1&!
+#6122
+0*#
+#6124
+0z"
+#6135
+08!
+#6149
+0-"
+#6161
+0$#
+#6163
+0l!
+#6176
+0w!
+#6200
+0*!
+#6225
+0e!
+#6283
+0B!
+0e"
+#6285
+0W"
+#6304
+03"
+#6329
+0z!
+#6386
+00#
+#6443
+0[!
+#6486
+0^"
+#6546
+0V"
+#6553
+0t"
+#6577
+0i!
+#6598
+02#
+#6602
+0J"
+#6613
+0<"
+#6620
+0b!
+#6624
+0T!
+#6651
+0f"
+#6733
+0~!
+#6738
+0m"
+#6768
+0Q"
+#6792
+05"
+#6803
+0C"
+#6817
+0{"
+#6828
+0+#
+#6829
+0."
+#6899
+0'"
+#7072
+0M!
+#7198
+0_"
+#7283
+0X"
+#7822
+0A#
+#8262
+0>#
+#8312
+0<#
+#8401
+0C#
+#8647
+0?#
+#8680
+0=#
+#8731
+0;#
+#8854
+0:#
+#9358
+0@#
+#9773
+0l
+0$
+#10038
+0B#
+#10281
+0O
+0A
+#10555
+0D#
+#10828
+0X
+08
+#11089
+0L
+0D
+#11127
+0h
+0(
+#11191
+0R
+0>
+#11195
+0j
+0&
+#11221
+0T
+0<
+#11226
+0f
+0*
+#11447
+0e
+0+
+#11519
+0W
+09
+#11532
+0g
+0)
+#11564
+0i
+0'
+#11647
+0M
+0C
+#11656
+0d
+0,
+#11661
+0Q
+0?
+#11698
+0Z
+06
+#11711
+0`
+00
+#11900
+0c
+0-
+#11917
+0U
+0;
+#11924
+0Y
+07
+#11936
+0V
+0:
+#12331
+0N
+0B
+#12378
+0^
+02
+#12396
+0k
+0%
+#12706
+0a
+0/
+#12831
+0\
+04
+#12858
+0]
+03
+#13212
+0[
+05
+#13216
+0S
+0=
+#13326
+0_
+01
+#13625
+0P
+0@
+#13827
+0b
+0.
+#16534
+1m
+1E
+#1000000

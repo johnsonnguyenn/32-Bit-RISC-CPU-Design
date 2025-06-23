@@ -1,0 +1,9 @@
+module RightShift (a, result);
+	input [31:0] a;
+	output [31:0] result; 
+	
+
+	assign result[30:0] = a[31:1]; // takes bits 31 down to 1 and shifts to bits 30 down to 0
+	assign result[31] = 0; // the MSB becomes 0 
+	
+endmodule

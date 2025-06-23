@@ -1,0 +1,9 @@
+module mux2to1 (s, in1, in2, out)
+	input [31:0] in1, in2; 
+	input s;
+	output reg out;
+	
+always @(*)
+	out = s ? in1 : in2; 
+	
+endmodule

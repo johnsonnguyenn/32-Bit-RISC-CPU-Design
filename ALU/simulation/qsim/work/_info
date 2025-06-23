@@ -1,0 +1,203 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/ALU/simulation/qsim
+vadder32
+Z1 !s110 1749614989
+!i10b 1
+!s100 4D^Dgkc6E;e?7TR5k0zSL3
+IGjBl=NcBhl2Z]j1fMf>W[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1749614987
+Z3 8ALU32.vo
+Z4 FALU32.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1749614988.000000
+Z7 !s107 ALU32.vo|
+Z8 !s90 -work|work|ALU32.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vadder32_vlg_vec_tst
+R1
+!i10b 1
+!s100 _2PcRB8?aDf10eNYZj7cX3
+Imn]^9Yo:U>R3:1PD@50FR1
+R2
+R0
+w1749614985
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z11 L0 29
+R6
+r1
+!s85 0
+31
+!s108 1749614989.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+vALU32Bit
+Z12 !s110 1749717674
+!i10b 1
+!s100 kJSZF]`5BUmjkWUL3I6NT0
+IR0Hz=KGm[f4FW>?<ZkLP43
+R2
+R0
+Z13 w1749717672
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1749717674.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@a@l@u32@bit
+vALU32Bit_vlg_vec_tst
+R12
+!i10b 1
+!s100 TI4?l3Z324omThjDT9z<W1
+I9lcY_5F215k381bMnU5GD1
+R2
+R0
+w1749717670
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+Z17 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R9
+R10
+n@a@l@u32@bit_vlg_vec_tst
+vhard_block
+R12
+!i10b 1
+!s100 HaCScAMGYH5XhKg<g6z341
+IFI<NT92VzL8cYfSCcj5Iz1
+R2
+R0
+R13
+R3
+R4
+L0 5130
+R6
+r1
+!s85 0
+31
+R14
+R7
+R8
+!i113 1
+R9
+R10
+vmux2to1
+!s110 1749716135
+!i10b 1
+!s100 UG=7Z>Ji=mXHLGhJMU8A<2
+IAc>iG;i23TnZD2F<55VdC2
+R2
+R0
+w1749716134
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1749716135.000000
+R7
+R8
+!i113 1
+R9
+R10
+vmux2to1_vlg_vec_tst
+!s110 1749716136
+!i10b 1
+!s100 JZ[c4:RjLNGmSi>V9Ejc20
+IS[kIeeK]gnT_VQdc[TA>93
+R2
+R0
+w1749716132
+R15
+R16
+R11
+R6
+r1
+!s85 0
+31
+R18
+!s107 Waveform1.vwf.vt|
+R17
+!i113 1
+R9
+R10
+vNOT32Bit
+Z19 !s110 1749713407
+!i10b 1
+!s100 zVA]?ckc4?`VWe<3JKiEJ2
+IVOok5Zmg>gCdn=PNZ@oCJ2
+R2
+R0
+w1749713405
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z20 !s108 1749713407.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@n@o@t32@bit
+vNOT32Bit_vlg_vec_tst
+R19
+!i10b 1
+!s100 VcTOhCiMG0PXh0SbUOVz?1
+I?<0;Xe_UiSf8[ULBX04ZK0
+R2
+R0
+w1749713403
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R20
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R9
+R10
+n@n@o@t32@bit_vlg_vec_tst

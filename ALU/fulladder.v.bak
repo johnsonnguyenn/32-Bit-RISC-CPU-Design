@@ -1,0 +1,6 @@
+module fulladder (sum, cout, cin, a, b); 
+	input a, b, cin; 
+	output sum, cout;
+	
+	sum = a ^ b ^ cin; 
+	cout = (a & b) | (a & cin) | (b & cin);

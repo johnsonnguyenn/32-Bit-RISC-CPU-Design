@@ -1,0 +1,10 @@
+module ALU32Bit (a, b, op, result, cout, zero);
+	input [31:0] a, b, result;
+	input [2:0] op;
+	output cout, zero;
+	
+	wire [31:0] and_result, or_result, adder_result, Lshift_result, Rshift_result;
+	
+	adder32 adder_32bit (.a(a), .b(b), .cin(cin), .sum(result), .cout(cout);
+	
+	endmodule
