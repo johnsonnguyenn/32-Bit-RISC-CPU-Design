@@ -15,3 +15,9 @@ The program counter will either load a new address, or move to the next instruct
 
 An arithmetic logic unit is a component that was designed to perform arithmetic and logic operations in 32 bits. Each logical component (AND, OR, etc.) was implemented individually, while addition and subtraction were handled by a 32-bit ripple-carry adder. 
 By designing a ripple-carry adder, addition and subtraction are performed by selecting the inversion of B and adjusting the carry-in. Moreover, shifting bits left and right was also implemented individually. 
+
+## Data Memory
+
+* [**Data Memory**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/Data_Mem)
+
+A data memory module was designed and implemented on my RISC processor, allowing data to be retrieved and stored. It also supports both reading and writing operations, which allows instructions to store results into memory or load values back into registers. 
