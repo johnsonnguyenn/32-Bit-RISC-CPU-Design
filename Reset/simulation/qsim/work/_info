@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/Reset/simulation/qsim
+vhard_block
+Z1 !s110 1753845371
+!i10b 1
+!s100 jz4Ub0L_KRzSMLQf2Tz5M3
+I_W1]CO]OM9RE@1bGdZ8WI2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1753845364
+Z4 8ResetCircuit.vo
+Z5 FResetCircuit.vo
+L0 2287
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1753845370.000000
+Z8 !s107 ResetCircuit.vo|
+Z9 !s90 -work|work|ResetCircuit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vreset_circuit
+R1
+!i10b 1
+!s100 MijL_M3BXocY;;[d]f4Jf3
+IW6G22lZK0RTkG?7;C3DT52
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vreset_circuit_vlg_vec_tst
+R1
+!i10b 1
+!s100 aoK[eVdljJ317Z_aVlT]B1
+IP<BRUZLY9QGj^E]mMSh1[3
+R2
+R0
+w1753845362
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1753845371.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

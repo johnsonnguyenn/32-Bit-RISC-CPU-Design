@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'data_mux[0]'
+Slack : -15.442
+TNS   : -347.230
+
+Type  : Slow 1200mV 85C Model Setup 'mclk'
+Slack : -4.342
+TNS   : -242.973
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.497
+TNS   : -296.665
+
+Type  : Slow 1200mV 85C Model Setup 'im_mux2[0]'
+Slack : -3.438
+TNS   : -70.857
+
+Type  : Slow 1200mV 85C Model Hold 'mclk'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'data_mux[0]'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'im_mux2[0]'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -168.888
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mclk'
+Slack : -3.000
+TNS   : -93.319
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'data_mux[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'im_mux2[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'data_mux[0]'
+Slack : -14.234
+TNS   : -319.288
+
+Type  : Slow 1200mV 0C Model Setup 'mclk'
+Slack : -3.928
+TNS   : -219.738
+
+Type  : Slow 1200mV 0C Model Setup 'im_mux2[0]'
+Slack : -3.219
+TNS   : -67.797
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.078
+TNS   : -255.249
+
+Type  : Slow 1200mV 0C Model Hold 'mclk'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'data_mux[0]'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'im_mux2[0]'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -168.844
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mclk'
+Slack : -3.000
+TNS   : -93.187
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'data_mux[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'im_mux2[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'data_mux[0]'
+Slack : -7.043
+TNS   : -155.611
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.905
+TNS   : -148.723
+
+Type  : Fast 1200mV 0C Model Setup 'im_mux2[0]'
+Slack : -1.361
+TNS   : -18.915
+
+Type  : Fast 1200mV 0C Model Setup 'mclk'
+Slack : -1.333
+TNS   : -74.490
+
+Type  : Fast 1200mV 0C Model Hold 'data_mux[0]'
+Slack : -0.057
+TNS   : -0.057
+
+Type  : Fast 1200mV 0C Model Hold 'mclk'
+Slack : 0.060
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'im_mux2[0]'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -139.341
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mclk'
+Slack : -3.000
+TNS   : -77.037
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'data_mux[0]'
+Slack : -3.000
+TNS   : -4.113
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'im_mux2[0]'
+Slack : -3.000
+TNS   : -3.002
+
+------------------------------------------------------------

@@ -1,0 +1,30 @@
+module reset_circuit (
+	input wire clk,
+	input wire reset,
+	output reg enable_pd, 
+	output reg clr_pc
+);
+
+reg [2:0] count; 
+reg counting;
+
+always @(posedge clk) begin 
+	if (reset) begin 
+		enable_pd <= 0;
+		clr_pc <= 1;
+		count <= 1;
+	end else if (!counting) begin 
+		enable_pd <= 1; 
+		clr_pc <= 0; 
+	end else if (count < 3'b100) begin
+		count <= count + 1;
+	end else begin 
+		enable_pd <= 1;
+		clr_pc <= 0;
+		count <= 0; 
+	end 
+end 
+	 
+endmodule
+		
+		 

@@ -1,0 +1,10 @@
+module uze (
+	input wire [31:0] uze_in,
+	output wire [31:0] uze_out
+	); 
+	
+	assign uze_out = ({16'b0. uze_out[15:0]});
+	
+endmodule 
+		
+	

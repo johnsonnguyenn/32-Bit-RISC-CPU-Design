@@ -1,0 +1,426 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/25/2025 17:22:51"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          data_path
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module data_path_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg a_mux;
+reg [2:0] alu_op;
+reg b_mux;
+reg clk;
+reg clr_A;
+reg clr_B;
+reg clr_C;
+reg clr_IR;
+reg clr_PC;
+reg clr_Z;
+reg [31:0] data_in;
+reg [1:0] data_mux;
+reg en;
+reg im_mux1;
+reg [1:0] im_mux2;
+reg inc_PC;
+reg ld_A;
+reg ld_B;
+reg ld_C;
+reg ld_IR;
+reg ld_PC;
+reg ld_Z;
+reg mclk;
+reg reg_mux;
+reg wen;
+// wires                                               
+wire [31:0] addr_out;
+wire [7:0] mem_addr;
+wire [31:0] mem_in;
+wire [31:0] mem_out;
+wire [31:0] out_A;
+wire [31:0] out_B;
+wire out_C;
+wire [31:0] out_IR;
+wire [31:0] out_PC;
+wire out_Z;
+
+// assign statements (if any)                          
+data_path i1 (
+// port map - connection between master ports and signals/registers   
+	.a_mux(a_mux),
+	.addr_out(addr_out),
+	.alu_op(alu_op),
+	.b_mux(b_mux),
+	.clk(clk),
+	.clr_A(clr_A),
+	.clr_B(clr_B),
+	.clr_C(clr_C),
+	.clr_IR(clr_IR),
+	.clr_PC(clr_PC),
+	.clr_Z(clr_Z),
+	.data_in(data_in),
+	.data_mux(data_mux),
+	.en(en),
+	.im_mux1(im_mux1),
+	.im_mux2(im_mux2),
+	.inc_PC(inc_PC),
+	.ld_A(ld_A),
+	.ld_B(ld_B),
+	.ld_C(ld_C),
+	.ld_IR(ld_IR),
+	.ld_PC(ld_PC),
+	.ld_Z(ld_Z),
+	.mclk(mclk),
+	.mem_addr(mem_addr),
+	.mem_in(mem_in),
+	.mem_out(mem_out),
+	.out_A(out_A),
+	.out_B(out_B),
+	.out_C(out_C),
+	.out_IR(out_IR),
+	.out_PC(out_PC),
+	.out_Z(out_Z),
+	.reg_mux(reg_mux),
+	.wen(wen)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #20000 1'b1;
+	#20000;
+end 
+
+// mclk
+always
+begin
+	mclk = 1'b0;
+	mclk = #10000 1'b1;
+	#10000;
+end 
+// data_in[ 31 ]
+initial
+begin
+	data_in[31] = 1'b0;
+end 
+// data_in[ 30 ]
+initial
+begin
+	data_in[30] = 1'b0;
+end 
+// data_in[ 29 ]
+initial
+begin
+	data_in[29] = 1'b0;
+end 
+// data_in[ 28 ]
+initial
+begin
+	data_in[28] = 1'b0;
+end 
+// data_in[ 27 ]
+initial
+begin
+	data_in[27] = 1'b0;
+end 
+// data_in[ 26 ]
+initial
+begin
+	data_in[26] = 1'b0;
+end 
+// data_in[ 25 ]
+initial
+begin
+	data_in[25] = 1'b0;
+end 
+// data_in[ 24 ]
+initial
+begin
+	data_in[24] = 1'b0;
+end 
+// data_in[ 23 ]
+initial
+begin
+	data_in[23] = 1'b0;
+end 
+// data_in[ 22 ]
+initial
+begin
+	data_in[22] = 1'b0;
+end 
+// data_in[ 21 ]
+initial
+begin
+	data_in[21] = 1'b0;
+end 
+// data_in[ 20 ]
+initial
+begin
+	data_in[20] = 1'b0;
+end 
+// data_in[ 19 ]
+initial
+begin
+	data_in[19] = 1'b0;
+end 
+// data_in[ 18 ]
+initial
+begin
+	data_in[18] = 1'b0;
+end 
+// data_in[ 17 ]
+initial
+begin
+	data_in[17] = 1'b0;
+end 
+// data_in[ 16 ]
+initial
+begin
+	data_in[16] = 1'b0;
+end 
+// data_in[ 15 ]
+initial
+begin
+	data_in[15] = 1'b0;
+	data_in[15] = #100000 1'b1;
+	data_in[15] = #200000 1'b0;
+end 
+// data_in[ 14 ]
+initial
+begin
+	data_in[14] = 1'b0;
+end 
+// data_in[ 13 ]
+initial
+begin
+	data_in[13] = 1'b0;
+	data_in[13] = #100000 1'b1;
+	data_in[13] = #200000 1'b0;
+end 
+// data_in[ 12 ]
+initial
+begin
+	data_in[12] = 1'b0;
+end 
+// data_in[ 11 ]
+initial
+begin
+	data_in[11] = 1'b0;
+	data_in[11] = #100000 1'b1;
+	data_in[11] = #200000 1'b0;
+end 
+// data_in[ 10 ]
+initial
+begin
+	data_in[10] = 1'b0;
+end 
+// data_in[ 9 ]
+initial
+begin
+	data_in[9] = 1'b0;
+	data_in[9] = #100000 1'b1;
+	data_in[9] = #200000 1'b0;
+end 
+// data_in[ 8 ]
+initial
+begin
+	data_in[8] = 1'b0;
+end 
+// data_in[ 7 ]
+initial
+begin
+	data_in[7] = 1'b0;
+	data_in[7] = #100000 1'b1;
+	data_in[7] = #200000 1'b0;
+end 
+// data_in[ 6 ]
+initial
+begin
+	data_in[6] = 1'b0;
+end 
+// data_in[ 5 ]
+initial
+begin
+	data_in[5] = 1'b0;
+	data_in[5] = #100000 1'b1;
+	data_in[5] = #200000 1'b0;
+end 
+// data_in[ 4 ]
+initial
+begin
+	data_in[4] = 1'b0;
+end 
+// data_in[ 3 ]
+initial
+begin
+	data_in[3] = 1'b0;
+	data_in[3] = #100000 1'b1;
+	data_in[3] = #200000 1'b0;
+end 
+// data_in[ 2 ]
+initial
+begin
+	data_in[2] = 1'b0;
+end 
+// data_in[ 1 ]
+initial
+begin
+	data_in[1] = 1'b0;
+	data_in[1] = #100000 1'b1;
+	data_in[1] = #200000 1'b0;
+end 
+// data_in[ 0 ]
+initial
+begin
+	data_in[0] = 1'b0;
+end 
+
+// a_mux
+initial
+begin
+	a_mux = 1'b0;
+	a_mux = #200000 1'b1;
+	a_mux = #100000 1'b0;
+end 
+
+// b_mux
+initial
+begin
+	b_mux = 1'b0;
+end 
+
+// reg_mux
+initial
+begin
+	reg_mux = 1'b0;
+end 
+
+// en
+initial
+begin
+	en = 1'b0;
+end 
+
+// clr_A
+initial
+begin
+	clr_A = 1'b0;
+end 
+
+// clr_B
+initial
+begin
+	clr_B = 1'b0;
+end 
+
+// clr_IR
+initial
+begin
+	clr_IR = 1'b0;
+end 
+
+// clr_PC
+initial
+begin
+	clr_PC = 1'b0;
+end 
+
+// clr_Z
+initial
+begin
+	clr_Z = 1'b0;
+end 
+
+// inc_PC
+initial
+begin
+	inc_PC = 1'b0;
+end 
+
+// ld_A
+initial
+begin
+	ld_A = 1'b0;
+	ld_A = #200000 1'b1;
+	ld_A = #100000 1'b0;
+end 
+
+// ld_B
+initial
+begin
+	ld_B = 1'b0;
+end 
+
+// ld_IR
+initial
+begin
+	ld_IR = 1'b0;
+	ld_IR = #100000 1'b1;
+	ld_IR = #100000 1'b0;
+end 
+
+// ld_PC
+initial
+begin
+	ld_PC = 1'b0;
+end 
+
+// ld_Z
+initial
+begin
+	ld_Z = 1'b0;
+end 
+// alu_op[ 2 ]
+initial
+begin
+	alu_op[2] = 1'b0;
+end 
+// alu_op[ 1 ]
+initial
+begin
+	alu_op[1] = 1'b0;
+end 
+// alu_op[ 0 ]
+initial
+begin
+	alu_op[0] = 1'b0;
+end 
+// data_mux[ 1 ]
+initial
+begin
+	data_mux[1] = 1'b0;
+end 
+// data_mux[ 0 ]
+initial
+begin
+	data_mux[0] = 1'b0;
+end 
+endmodule
+

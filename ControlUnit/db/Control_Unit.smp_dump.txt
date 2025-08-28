@@ -1,0 +1,6 @@
+
+State Machine - |controlunit|current_state
+Name current_state.T0 current_state.T2 current_state.T1 
+current_state.T0 0 0 0 
+current_state.T1 1 0 1 
+current_state.T2 1 1 0 

@@ -1,0 +1,14 @@
+module controlunit (
+	input clk, mclk,
+	input enable, 
+	input statusC, StatusZ, 
+	input [31:0] INST, 
+	output logic A_Mux, B_Mux, 
+	output logic IM_MUX1, REG_MUX, 
+	output logic [1:0] IM_MUX2, DATA_MUX, 
+	output logic [2:0] ALU_OP,
+	output logic inc_PC, ld_PC,
+	output logic clr_A, clr_B, clr_C, ld_Z,
+	output logic [2:0] T,
+	output logic wen, en
+); 

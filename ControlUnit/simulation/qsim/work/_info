@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/ControlUnit/simulation/qsim
+vcontrolunit
+Z1 !s110 1751592127
+!i10b 1
+!s100 zP1c4M9cV[8_XYdXlHKkE1
+Ij4jK`Yo:ZnNc=jGfIcJPL3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1751592126
+Z4 8Control_Unit.vo
+Z5 FControl_Unit.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1751592127.000000
+Z8 !s107 Control_Unit.vo|
+Z9 !s90 -work|work|Control_Unit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontrolunit_vlg_vec_tst
+R1
+!i10b 1
+!s100 RN=7hM2H>Xj3`Q=BV_`0U3
+IWi:=OZ[J4@:_R5L]`JSVC3
+R2
+R0
+w1751592125
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 OldDPcf4YE8TN2IT<Ym`Z1
+I?jVQS8lIggf]_M1mclicb3
+R2
+R0
+R3
+R4
+R5
+L0 1969
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

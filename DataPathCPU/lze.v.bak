@@ -1,0 +1,8 @@
+module lze (	
+	input wire [31:0] lze_in,
+	input wire [31:0] lze_out
+		);
+		
+	assign lze_out = (lze_in[15:0], 16'b0);
+	
+endmodule

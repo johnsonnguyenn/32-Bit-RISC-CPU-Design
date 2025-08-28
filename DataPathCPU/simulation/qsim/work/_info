@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/RISC-V_CPU/DataPathCPU/simulation/qsim
+vdata_path
+Z1 !s110 1750887392
+!i10b 1
+!s100 hi3KoDe8dW5bImgaamHNM1
+IK?Z^H<oCCGH25HA<6G?D_3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1750887392
+Z4 8DataPath.vo
+Z5 FDataPath.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1750887392.000000
+Z9 !s107 DataPath.vo|
+Z10 !s90 -work|work|DataPath.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vdata_path_vlg_vec_tst
+R1
+!i10b 1
+!s100 Td8=aYG9`<Babc8;L5oVZ2
+IES0_Cm`Gnnl?SDPk6RQA]1
+R2
+R0
+w1750887390
+8LDAI.vwf.vt
+FLDAI.vwf.vt
+Z13 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 LDAI.vwf.vt|
+!s90 -work|work|LDAI.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 NAKUhn]bifF>Z6DEeTE8V2
+IfEZWcG8e^?O3eB];83Y421
+R2
+R0
+R3
+R4
+R5
+L0 19421
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlze
+Z14 !s110 1750841343
+!i10b 1
+!s100 UL:iVF6O917D;Y2]b<od31
+I<9Tila`PIAWTZB0jSog@42
+R2
+R0
+w1750841338
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1750841343.000000
+R9
+R10
+!i113 1
+R11
+R12
+vlze_vlg_vec_tst
+R14
+!i10b 1
+!s100 1WkPQbD:INASkofQf:S:g1
+IBo?N@B8adA@oEBnJ<]K[F1
+R2
+R0
+w1750841336
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vred
+Z16 !s110 1750842371
+!i10b 1
+!s100 L7K:o@7dWTCi`Q<8Qc:l[3
+IgXo=]A<XiZkOPMiPl<hZ[2
+R2
+R0
+w1750842370
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z17 !s108 1750842371.000000
+R9
+R10
+!i113 1
+R11
+R12
+vred_vlg_vec_tst
+R16
+!i10b 1
+!s100 HamW6iz09kf=POD96Tb3<0
+I1FEZU>CM=2L^VMA1:MZ2:2
+R2
+R0
+w1750842368
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R17
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R11
+R12
+vuze
+Z18 !s110 1750841854
+!i10b 1
+!s100 T<Jebh=;^:VeU2IiC6?GL3
+I_;UiKTK<emD_hXPbndDO73
+R2
+R0
+w1750841853
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z19 !s108 1750841854.000000
+R9
+R10
+!i113 1
+R11
+R12
+vuze_vlg_vec_tst
+R18
+!i10b 1
+!s100 ]]1z6QkeO?gZB`WSaj3171
+IFQo4e<O;C^_VB;m1KdF8:0
+R2
+R0
+w1750841850
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R19
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
