@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 27 16:23:31 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Harvard
+Top-level Entity Name : harvard
+Family : Cyclone IV E
+Total logic elements : 687
+    Total combinational functions : 621
+    Dedicated logic registers : 197
+Total registers : 197
+Total pins : 234
+Total virtual pins : 0
+Total memory bits : 8,192
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

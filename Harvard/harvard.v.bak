@@ -1,0 +1,33 @@
+module harvard ( 
+	input wire clk,
+	input wire mclk, 
+	input wire rst, 
+	input wire [31:0] datain,
+	output wire [31:0] dataout, 
+	output wire [31:0] addrout,
+	output wire [31:0] outA,
+	output wire [31:0] outB,
+	output wire outC,
+	output wire outZ,
+	output wire [31:0] outIR,
+	output wire [31:0] outPC,
+	output wire [2:0] outT,
+	output wire wen,
+	output wire en
+	);
+	
+	wire a_mux, b_mux, im_mux1, reg_mux; 
+	wire ld_A, ld_B, ld_C, ld_Z;
+	wire clr_A, clr_B, clr_C, clr_Z; 
+	wire ld_PC, clr_PC, inc_PC;
+	wire clr_IR, ld_IR;
+	wire statusC, statusZ;
+	wire [1:0] im_mux2, data_mux;
+	wire {2:0] alu_op;
+	wire [31:0] outIR;
+	
+	wire memWEN, memEN;
+	
+	
+	data_path datapath (
+	
