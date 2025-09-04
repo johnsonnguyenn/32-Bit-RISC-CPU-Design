@@ -55,7 +55,7 @@ A reset block was designed to initialize the CPU by clearing registers and reset
 
 A complete CPU was implemented, comprising a multicycle datapath, a control unit, and a reset block to execute instructions. 
 
-## What I have learned 
+## Learning Outcomes 
 
 - Computer Architecture of the processor
 - Designing a multicycle datapath
@@ -63,7 +63,7 @@ A complete CPU was implemented, comprising a multicycle datapath, a control unit
 - Verilog HDL coding
 - Understanding instruction execution flow: fetch, decode, execute, memory access, write-back
 
-## What to incorporate next
+## Future Improvements
 
 - Include a pipelined datapath for improved performance:
    - Instruction Fetch
