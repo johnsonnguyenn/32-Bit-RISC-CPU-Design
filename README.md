@@ -21,3 +21,55 @@ By designing a ripple-carry adder, addition and subtraction are performed by sel
 * [**Data Memory**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/Data_Mem)
 
 A data memory module was designed and implemented on my RISC processor, allowing data to be retrieved and stored. It also supports both reading and writing operations, which allows instructions to store results into memory or load values back into registers. 
+
+## Data Path
+
+* [**Data Path**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/DataPathCPU)
+
+Implemented a multicycle datapath, includes ALU, registers, PC, Instruction Register for instruction execution. 
+
+Instructions that are supported: 
+
+| CATAGORY   | INSTRUCTIONS |
+| ------------- | ------------- |
+|     Data Transfer     | LDAI, LBDI, STA, STB, LDA, LDB, LUI  |
+| Control  | JMP, BEQ, BNE  |
+| Arithmetic  | ADD, SUB, INCA, DECA |
+| Logic | AND, ANDI, XOR, OR, ROL, ROR |
+| Registers  | CLRA, CLRB, CLRC, CLRZ |
+
+## Control Unit
+
+* [**Control Unit**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/ControlUnit)
+
+A control unit was implemented to generate control signals for the datapath.
+## Reset 
+
+* [**Reset**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/Reset)
+
+A reset block was designed to initialize the CPU by clearing registers and resetting the PC. 
+
+## Complete Non-pipelined CPU
+
+* [**CPU**](https://github.com/johnsonnguyenn/32-Bit-RISC-CPU-Design/tree/main/Harvard)
+
+A complete CPU was implemented, comprising a multicycle datapath, a control unit, and a reset block to execute instructions. 
+
+## What I have learned 
+
+- Computer Architecture of the processor
+- Designing a multicycle datapath
+- Utilizing FSMs to design a control unit
+- Verilog HDL coding
+- Understanding instruction execution flow: fetch, decode, execute, memory access, write-back
+
+## What to incorporate next
+
+- Include a pipelined datapath for improved performance:
+   - Instruction Fetch
+   - Instruction Decode
+   - Execute
+   - Memory Access
+   - Write-back
+- Include hazard detection
+
